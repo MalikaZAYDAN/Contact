@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 12 mai 2017 13:43:58 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="modell.Contact" table="CONTACT">
+        <id name="id_contact" type="int">
+            <column name="ID_CONTACT" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom" type="java.lang.String">
+            <column name="NOM" />
+        </property>
+        <property name="prenom" type="java.lang.String">
+            <column name="PRENOM" />
+        </property>
+        <property name="num_tel" type="java.lang.String">
+            <column name="NUM_TEL" />
+        </property>
+        <property name="type_tel" type="java.lang.String">
+            <column name="TYPE_TEL" />
+        </property>
+        
+          <property name="categorie" type="java.lang.String">
+            <column name="CATEGORIE" />
+        </property>
+    </class>
+</hibernate-mapping>
