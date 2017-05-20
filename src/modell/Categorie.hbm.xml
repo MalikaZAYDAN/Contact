@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 13 mai 2017 20:15:16 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="modell.Categorie" table="CATEGORIE">
+        <id name="id_categorie" type="int">
+            <column name="ID_CATEGORIE" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom_categorie" type="java.lang.String">
+            <column name="NOM_CATEGORIE" />
+        </property>
+    </class>
+</hibernate-mapping>
